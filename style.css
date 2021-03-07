@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+.grid{
+    width: 300px;
+    height: 300px;  
+    
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+    grid-gap: 1px;
+}
+
+.grid div{
+    height: 37.5px;
+    width: 37.5px;
+    display: grid;
+    
+
+}
+.fondo{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+.azul{
+    height: 30px;
+    width: 30px;
+    background-color: teal;
+}
+
+.rojo{
+    height: 30px;
+    width: 30px;
+    background-color: tomato;
+}
+
+.verde{
+    height: 30px;
+    width: 30px;
+    background-color: yellowgreen;
+}
+
+
+
